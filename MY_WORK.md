@@ -247,7 +247,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[[The hardest part was the waiting time feature. The results showed some processes more than once. I had to find why this happened. I used a HashSet to remove the duplicates. After that, each process appeared only once in the results.]]
+[The hardest part was the waiting time feature. The results showed some processes more than once. I had to find why this happened. I used a HashSet to remove the duplicates. After that, each process appeared only once in the results.]
 
 ## Question 3: How did you overcome the challenges you faced?
 
@@ -312,11 +312,12 @@
 Example from my output:
 ```
 
-[P7 (Priority: 9) added to ready queue | Burst time: 4604ms]
+P7 (Priority: 9) added to ready queue | Burst time: 4604ms
+
 ```
 
 **Explanation of example:**
-[P7 has a burst time of 4604ms. The time quantum is 2000ms. P7 needs more than one turn to finish. So P7 goes back to the ready queue.P7 was re-queued two times before it finished.]
+[P7 has a burst time of 4604ms. The time quantum is 2000ms. P7 needs three CPU turns: 2000ms, 2000ms, and 604ms. It goes back to the ready queue after the first two turns. Then P7 finishes in the third turn.]
 
 ## Question 3: Thread Lifecycle
 
@@ -332,7 +333,7 @@ Example from my output:
 
 3. **Running**: [P1 is Running when the CPU starts executing its thread.]
 
-4. **Waiting**: [The main thread waits for P1 to finish when it calls join().]
+4. **Waiting**: [The main thread enters the Waiting state when it calls join() to wait for P1 to finish.]
 
 5. **Terminated**: [P1 is Terminated when it finishes its work]
 
