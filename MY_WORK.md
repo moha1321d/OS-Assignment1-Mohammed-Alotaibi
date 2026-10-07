@@ -247,7 +247,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[The hardest part was the waiting time feature. The results showed some processes more than once. The results showed some processes more than once. I had to find why this happened. I used a HashSet to remove the duplicates.]
+[[The hardest part was the waiting time feature. The results showed some processes more than once. I had to find why this happened. I used a HashSet to remove the duplicates. After that, each process appeared only once in the results.]]
 
 ## Question 3: How did you overcome the challenges you faced?
 
@@ -255,7 +255,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Round-Robin gives each process a turn to use the CPU. Each process gets a small amount of time. If a process is not finished it goes back to the queue. This continues until all processes are finished. This makes the CPU time fair for all processes.]
+[[I checked the code to find the problem. I noticed that some processes appeared more than once. I used a HashSet to remove the duplicates. Then I ran the program again. The results showed each process only once.]
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
@@ -295,7 +295,7 @@
 
 **Your Answer:** *(3-5 sentences)*
 
-[A process is a program while a thread is part of a program. Threads share memory but separate processes have their own memory. Threads are also faster to create than separate processes. In this assignment we used threads to run the simulated processes.]
+[A process is a running program, while a thread is part of a process. Threads share memory, but separate processes have their own memory. Threads are faster to create than separate processes. In this assignment, the Process class represents a simulated process. The code uses new Thread(process) to run it as a real Java thread.]
 
 ## Question 2: Ready Queue Behavior
 
@@ -316,7 +316,7 @@ Example from my output:
 ```
 
 **Explanation of example:**
-[P7 has a burst time of 4604ms. The time quantum is 2000ms. P7 needs more than one turn to finish. So P7 goes back to the ready queue.]
+[P7 has a burst time of 4604ms. The time quantum is 2000ms. P7 needs more than one turn to finish. So P7 goes back to the ready queue.P7 was re-queued two times before it finished.]
 
 ## Question 3: Thread Lifecycle
 
@@ -332,7 +332,7 @@ Example from my output:
 
 3. **Running**: [P1 is Running when the CPU starts executing its thread.]
 
-4. **Waiting**: [P1 is Waiting when it pauses during execution.]
+4. **Waiting**: [The main thread waits for P1 to finish when it calls join().]
 
 5. **Terminated**: [P1 is Terminated when it finishes its work]
 
@@ -355,7 +355,7 @@ Example from my output:
 ### Example 2: [Online Game Server]
 
 **Description**:
-[An online game server handles many players at the same time]
+[An online game server handles many players at the same time.]
 
 **Why Round-Robin works well here**:
 [Round-Robin gives each task a turn. Each task gets a short time quantum. The CPU switches between tasks to keep the game responsive.]
