@@ -29,11 +29,11 @@
 
 | Field | Your Answer |
 |-------|-------------|
-| **Full Name** | [Write your full name here] |
-| **Student ID** | [Write your student ID here] |
-| **University Email** | [yourid]@std.psau.edu.sa |
-| **GitHub Username** | [your-github-username] |
-| **Repository Link** | [Paste your repository link here] |
+| **Full Name** | Mohammed Alotaibi |
+| **Student ID** | 446052436 |
+| **University Email** |446052436@std.psau.edu.sa |
+| **GitHub Username** | moha1321d |
+| **Repository Link** | https://github.com/moha1321d/   OS-Assignment1-Mohammed-Alotaibi |
  
 ---
 
@@ -129,68 +129,69 @@
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
-**What I did**:
+### Entry 1 - [September 20, 2026, 12:45 PM]
+**What I did**:Created the initial repository and added the .gitignore file.
 
-**Details**:
+**Details**:Created the first commit and added a gitignore file to the repository.
 
-**Challenges**:
+**Challenges**:No major challenges during the initial setup.
 
-**Solution**:
+**Solution**:No solution was needed
 
-**Time spent**:
-
----
-
-### Entry 2 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
+**Time spent**:I do not remember the exact time.
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**:
+### Entry 2 - [October 7, 2026, 3:09 PM]
+**What I did**:Updated the student ID in the program.
 
-**Details**:
+**Details**: Replaced the placeholder student ID with my student ID 446052436, in SchedulerSimulation.java
 
-**Challenges**:
+**Challenges**: No major challenges.
 
-**Solution**:
+**Solution**: No solution was needed
 
-**Time spent**:
-
----
-
-### Entry 4 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
+**Time spent**:Approximately 15 Minutes.
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**:
+### Entry 3 - [October 7, 2026, 3:48 PM]
+**What I did**:Added the process priority feature.
 
-**Details**:
+**Details**:Added random priorities(1-10) and displayed them in the ready queue.
 
-**Challenges**:
+**Challenges**:No major challenges.
 
-**Solution**:
+**Solution**: No solution was needed
 
-**Time spent**:
+**Time spent**:Approximately 30 Minutes.
+
+---
+
+### Entry 4 - [October 7, 2026, 4:08 PM]
+**What I did**: Added the Context Switch Counter feature.
+
+**Details**: Added a counter to track and display the total context switches.
+
+**Challenges**:No major challenges.
+
+**Solution**: No solution was needed
+
+**Time spent**:Approximately 20 Minutes.
+
+---
+
+### Entry 5 - [October 7, 2026, 7:12 PM]
+**What I did**:Added the Waiting Time Tracking feature.
+
+**Details**:Added waiting time and turnaround time tracking for each process.
+
+**Challenges**: The timing results showed duplicate processes in the output.
+
+**Solution**: Used a HashSet to remove duplicate processes from the results.
+
+**Time spent**:Approximately 3 hours.
+
 
 ---
 
@@ -211,13 +212,13 @@
 
 > 💡 **TIP:** Fill this in **last**, after all entries are written.
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [Approximately 10 hours over two days.]
 
-**Most challenging part**:
+**Most challenging part**: duplicate results in the waiting time table.
 
-**Most interesting learning**:
+**Most interesting learning**: learned how Round-Robin scheduling gives each process a turn to use the CPU.
 
-**What I would do differently next time**:
+**What I would do differently next time**: Next time, I will test my code after each change to find errors early.
 
 ---
 
@@ -237,7 +238,8 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[I learned how multiple threads work in one program. I learned how to create and start a thread in Java. I learned how threads take turns using the CPU. I also learned how sleep() pauses a thread for some time. I learned that join() waits for a thread to finish.
+]
 
 ## Question 2: What was the most challenging part of this assignment?
 
@@ -245,7 +247,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[The hardest part was the waiting time feature. The results showed some processes more than once. The results showed some processes more than once. I had to find why this happened. I used a HashSet to remove the duplicates.]
 
 ## Question 3: How did you overcome the challenges you faced?
 
@@ -253,7 +255,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[Round-Robin gives each process a turn to use the CPU. Each process gets a small amount of time. If a process is not finished it goes back to the queue. This continues until all processes are finished. This makes the CPU time fair for all processes.]
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
@@ -261,7 +263,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[Multithreading is used in many applications. A web browser can run many tabs at the same time. A game can use threads for different tasks. A music app can play music while doing other tasks. Threads help these applications do many tasks together.]
 
 ### Optional: What would you like to learn more about?
 
@@ -293,7 +295,7 @@
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+[A process is a program while a thread is part of a program. Threads share memory but separate processes have their own memory. Threads are also faster to create than separate processes. In this assignment we used threads to run the simulated processes.]
 
 ## Question 2: Ready Queue Behavior
 
@@ -305,15 +307,16 @@
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+[If a process is not finished, it goes back to the ready queue. It waits for another turn to use the CPU. This gives other processes a chance to run. This makes Round-Robin fair for all processes.]
 
 Example from my output:
 ```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
+
+[P7 (Priority: 9) added to ready queue | Burst time: 4604ms]
 ```
 
 **Explanation of example:**
-[Explain what is happening in the output snippet you pasted.]
+[P7 has a burst time of 4604ms. The time quantum is 2000ms. P7 needs more than one turn to finish. So P7 goes back to the ready queue.]
 
 ## Question 3: Thread Lifecycle
 
@@ -323,15 +326,15 @@ Example from my output:
 
 **Your Answer:** *(3-5 sentences overall; one short explanation per state)*
 
-1. **New**: [When is P1 in the New state?]
+1. **New**: [P1 is New when its thread is created.]
 
-2. **Runnable**: [When does P1 become Runnable?]
+2. **Runnable**: [P1 is Runnable after start() and waits for the CPU.]
 
-3. **Running**: [When is P1 Running?]
+3. **Running**: [P1 is Running when the CPU starts executing its thread.]
 
-4. **Waiting**: [When and why would a thread be Waiting?]
+4. **Waiting**: [P1 is Waiting when it pauses during execution.]
 
-5. **Terminated**: [When is P1 Terminated?]
+5. **Terminated**: [P1 is Terminated when it finishes its work]
 
 ## Question 4: Real-World Applications
 
@@ -341,21 +344,21 @@ Example from my output:
 
 **Your Answer:** *(3-5 sentences per example)*
 
-### Example 1 (operating-system level): [Name of scenario]
+### Example 1 (operating-system level): [CPU Scheduling]
 
 **Description**:
-[Describe the real-world scenario.]
+[The operating system shares CPU time between running processes using a time quantum.]
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+[Round-Robin gives each process a fair turn to use the CPU. The CPU switches from one process to another.]
 
-### Example 2: [Name of application/scenario]
+### Example 2: [Online Game Server]
 
 **Description**:
-[Describe the real-world scenario or application.]
+[An online game server handles many players at the same time]
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+[Round-Robin gives each task a turn. Each task gets a short time quantum. The CPU switches between tasks to keep the game responsive.]
 
 ## Summary
 
