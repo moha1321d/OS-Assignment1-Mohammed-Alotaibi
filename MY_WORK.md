@@ -129,20 +129,7 @@
 
 ## Your Development Log
 
-### Entry 1 - [September 20, 2026, 12:45 PM]
-**What I did**:Created the initial repository and added the .gitignore file.
-
-**Details**:Created the first commit and added a gitignore file to the repository.
-
-**Challenges**:No major challenges during the initial setup.
-
-**Solution**:No solution was needed
-
-**Time spent**:I do not remember the exact time.
-
----
-
-### Entry 2 - [October 7, 2026, 3:09 PM]
+### Entry 1 - [October 7, 2026, 3:09 PM]
 **What I did**:Updated the student ID in the program.
 
 **Details**: Replaced the placeholder student ID with my student ID 446052436, in SchedulerSimulation.java
@@ -155,7 +142,7 @@
 
 ---
 
-### Entry 3 - [October 7, 2026, 3:48 PM]
+### Entry 2 - [October 7, 2026, 3:48 PM]
 **What I did**:Added the process priority feature.
 
 **Details**:Added random priorities(1-10) and displayed them in the ready queue.
@@ -168,7 +155,7 @@
 
 ---
 
-### Entry 4 - [October 7, 2026, 4:08 PM]
+### Entry 3 - [October 7, 2026, 4:08 PM]
 **What I did**: Added the Context Switch Counter feature.
 
 **Details**: Added a counter to track and display the total context switches.
@@ -181,7 +168,7 @@
 
 ---
 
-### Entry 5 - [October 7, 2026, 7:12 PM]
+### Entry 4 - [October 7, 2026, 7:12 PM]
 **What I did**:Added the Waiting Time Tracking feature.
 
 **Details**:Added waiting time and turnaround time tracking for each process.
@@ -192,6 +179,20 @@
 
 **Time spent**:Approximately 3 hours.
 
+
+---
+
+### Entry 5 - [October 8, 2026, 2:40 AM]
+
+**What I did**: Fixed the waiting time for the last process.
+
+**Details**: Added the waiting time calculation and updated MY_WORK.md.
+
+**Challenges**: The last process had an incorrect waiting time.
+
+**Solution**: Fixed the code and ran the program again.
+
+**Time spent**: Approximately 30 minutes.
 
 ---
 
