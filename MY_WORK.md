@@ -33,7 +33,7 @@
 | **Student ID** | 446052436 |
 | **University Email** |446052436@std.psau.edu.sa |
 | **GitHub Username** | moha1321d |
-| **Repository Link** | https://github.com/moha1321d/   OS-Assignment1-Mohammed-Alotaibi |
+| **Repository Link** |https://github.com/moha1321d/OS-Assignment1-Mohammed-Alotaibi|
  
 ---
 
@@ -364,14 +364,13 @@ P7 (Priority: 9) added to ready queue | Burst time: 4604ms
 ## Summary
 
 **Key concepts I understood through these questions:**
-1.
-2.
-3.
+1.The difference between processes and threads
+2.How Round-Robin scheduling works.
+3.How threads move between different states.
 
 **Concepts I need to study more:**
-1.
-2.
-
+1.How Java manages thread states.
+2.How context switching affects CPU performance.
 ---
 
 # ✅ Final Checklist (complete before submitting)
